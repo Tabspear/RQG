@@ -13,8 +13,17 @@ btn.addEventListener("click", () => {
       let EnglishText = document.getElementById("English_quote");
       let randomNum = Math.floor(Math.random() * data.length);
       let item = data[randomNum];
-
       ArabicText.innerHTML = `${item.Arabic}`;
-      EnglishText.innerHTML = `${item.English}`;
+      EnglishText.innerHTML = `${item.English}`
+  
+      runAnimate();
     });
 });
+
+function runAnimate() {
+  let ArabicText = document.getElementById("Arabic_quote");
+  let EnglishText = document.getElementById("English_quote");
+
+  EnglishText.classList.add("tracking-in-expand-fwd");
+  ArabicText.classList.add("tracking-in-expand-fwd");
+}
