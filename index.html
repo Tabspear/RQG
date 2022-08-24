@@ -26,15 +26,16 @@
       },
     };
   </script>
- 
+
   <script defer type="module" src="/main.js"></script>
   <title>RQG</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Readex+Pro&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/style.css" />
 </head>
+
 <body class="bg[#d2475a] opacity-[0.5] bg-no-repeat bg-center bg-cover bg-fixed -z-10 overflow-hidden"
   style="background-image: url('/img/arno-smit-sKJ7zSylUao-unsplash.jpg')">
   <nav class="bg-yellow z-40 w-full h-25 top-0 fixed">
@@ -64,17 +65,16 @@
 
 
     <div class="flex justify-center p-3 font-bold">
-      <a href="" class="hover:bg-blue">
-        <div>Religious Quotes</div>
-      </a>
 
-      <a href="" class="hover:bg-blue px-4">
-        <div>Dev Quotes</div>
-      </a>
+      <div id="rel_q" class="hover:bg-blue px-4">
+        Religious Quotes
+      </div>
 
-      <a href="" class="hover:bg-blue">
-        <div>Random Quotes</div>
-      </a>
+      <div class="hover:bg-blue px-4" id="dev_q">Dev Quotes</div>
+
+
+      <div class="hover:bg-blue" id="rand_q">Random Quotes</div>
+
 
     </div>
   </nav>
@@ -86,6 +86,7 @@
       <p class="font-sans text-4xl text-center text-wrap text-lg md:text-4xl lg:text-4xl font-bold mb-3 break-words"
         id="English_quote">
       </p>
+      <p class="font-sans text-md text-right font-bold" id="cit_ion"></p>
       <div class="flex items-center justify-center">
         <button class="font-mono text-2xl bg-blue p-2 rounded-md hover:bg-yellow" id="but_n">Generate</button>
       </div>
@@ -93,7 +94,8 @@
   </section>
 
   <footer class="bg-yellow z-40 w-full h-25 fixed left-0 right-0 bottom-0 p-2">
-    <a href="https://www.linkedin.com/in/taofeek-badmus" rel="noopener noreferrer" target= "_blank"  class=" text-right font-bold">
+    <a href="https://www.linkedin.com/in/taofeek-badmus" rel="noopener noreferrer" target="_blank"
+      class=" text-right font-bold">
       <p>
         &copy; Taofeek Badmus August 2022
         </div>
