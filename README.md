@@ -8,3 +8,6 @@ The RQG was built with HTML, CDN Tailwind CSS, Javascript and the database are s
 Open the page 
 Click on the type quotes you want to be randomly generated, in this case it could be random quotes, dev quotes and religious quotes.
 Then, click on generate. This would generate the needed quotes 
+
+# Developer Info
+Click on the name, Taofeek Badmus at the footer to get the developer personal information.
